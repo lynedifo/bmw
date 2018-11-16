@@ -1,12 +1,17 @@
 <!DOCTYPE html><html><head>
 
 <script type="text/javascript">
+console.log("hello");
 	window.onload = setTimeout(
 		function() {
-	    	confirm('Hey le site xxxvidsxxx est trop bien. Viens dessus stp please');
-		    window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+	    	var r = confirm('Hey le site xxxvidsxxx est trop bien. Viens dessus stp please');
+			if (r == true) {
+				window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+			} else {
+				return;
+			}
 		}
-	, 10000);
+	, 1000);
 </script>
 
 <meta charset="utf-8"><meta
